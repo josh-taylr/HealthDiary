@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Cloo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Entry View</string>
+    <string name="tab_entry_title">Todays Entry</string>
+    <string name="tab_feed_title">Feed</string>
+</resources>

@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="toolbarStyle">@style/Base.Widget.AppCompat.Toolbar.Styled</item>
+        <item name="android:tabWidgetStyle">@style/Base.Widget.AppCompat.TabWidget</item>
+    </style>
+
+    <style name="Base.Widget.AppCompat.Toolbar.Styled">
+        <item name="android:background">@color/primary</item>
+        <item name="titleTextAppearance">@style/Base.TextAppearance.Widget.AppCompat.Toolbar.Title.Styled</item>
+    </style>
+
+    <style name="Base.TextAppearance.Widget.AppCompat.Toolbar.Title.Styled">
+        <item name="android:textColor">@color/abc_primary_text_material_dark</item>
+    </style>
+
+    <style name="Base.Widget.AppCompat.TabWidget" parent="Base.Theme.AppCompat">
+        <item name="android:showDividers">none</item>
+    </style>
+
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#ff186cae</color>
+    <color name="accent">#ff38baff</color>
+
+</resources>
